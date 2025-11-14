@@ -3,39 +3,26 @@
 ## Description
 
 ## Setup
-Download [python](https://www.python.org/downloads/)
-
 Download [node](https://nodejs.org/en/download)
-
-Install the concurrently package:
-```
-npm install -g concurrently
-```
 
 In `iter-app`:
 ```
 npm install
 ```
 
-In `iter-app/api`:
-```
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-
 ## Usage
+
+### As a website
 
 In `iter-app`:
 ```
-npm run start
+npm run dev
 ```
 Go to the [homepage](http://localhost:5173/)
 
+### As a desktop application
 
-## Updating requirements
-
-In `iter-app/api`:
+In `iter-app`:
 ```
-pip freeze > requirements.txt
+npm start
 ```
