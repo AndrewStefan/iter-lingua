@@ -1,0 +1,31 @@
+.course-button {
+  border: none;
+  color: black;
+  width: 50%;
+  height: 100px;
+  padding 50px 50px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  word-spacing: 9999rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.create-course-button {
+  background-color: #c8ffb0;
+}
+
+.load-course-button {
+    background-color: #b0ffee;
+}
+
+.create-buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.start-course-button {
+  background-color: #fffeb0;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.main-info-container {
+  position: fixed;
+  bottom: -5px;
+  right: 15px;
+}
+
+.info-text {
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  white-space: nowrap;
+
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 40%;
+  right: 100%;
+  transition-property: visibility;
+  transition-delay: 0s;
+}
+
+    .info-i:hover + .info-text {
+  visibility: visible;
+  transition-delay: 0.3s;
+}
